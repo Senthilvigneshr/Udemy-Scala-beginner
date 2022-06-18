@@ -1,11 +1,9 @@
 package Playground
 
-object ValuesVariablesTypes {
+object ValuesVariablesTypes extends App{
 
-  def main(args: Array[String]): Unit = {
     val x:Int = 42
-
     println(x)
   }
 
-}
+
