@@ -13,6 +13,7 @@ object ValuesVariablesTypes extends App{
     val aString : String = "hello"
     val aBoolean : Boolean = true
     val aChar : Char = 'a'
+    val aLong : Long = 1234567899877555
 
     var aVariable : Int = 4
      aVariable = 5 //side effects
