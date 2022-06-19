@@ -39,7 +39,29 @@ object Expressions extends App{
 
   //Code blocks
 
+  val aCodeBlock = {
+    val y = 2
+    val z = y + 1
 
+    if (z > 4) "hello" else "goodbye"
+
+  }
+  println(aCodeBlock)
+
+
+  //diff btw "hello world" vs prinln("hello world")
+  //and -- types -- 1.String 2.Unit
+
+  val someValue = {
+    2 < 3
+  }
+  println(someValue)
+
+  val someOtherValue = {
+    if(someValue) 239 else 500
+    49
+  }
+  println(someOtherValue)
 
 }
 
