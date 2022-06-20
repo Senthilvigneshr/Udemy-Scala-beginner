@@ -59,7 +59,7 @@ object Expressions extends App{
 
   val someOtherValue = {
     if(someValue) 239 else 500
-    49
+    69
   }
   println(someOtherValue)
 
