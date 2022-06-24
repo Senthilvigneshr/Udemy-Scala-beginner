@@ -1,6 +1,6 @@
 package Training
 
-object ScalaModule1 extends App {
+object ScalaModule1  {
 
   /*
   1.Create variables for all the available datatypes in Scala, assign wrong values for variable and record the error
@@ -39,6 +39,14 @@ object ScalaModule1 extends App {
 
 /*  3.Create if else/loop statements for printing 10 numbers.*/
 
+  def main(args: Array[String]) = {
+    var counter: Int=0;
+
+    for(counter <- 1 to 10)
+      print(counter + " ");
+
+    println();
+  }
 /*  4.Create function to add 2 numbers.*/
 
    def aFuntion(a: Int, b: Int): Int = {
@@ -48,6 +56,7 @@ object ScalaModule1 extends App {
 
     }
 /*5.Create a sample class and object and include the if else/loop/add functions in it.*/
+
 
 /*6.Create a class with public and protected members*/
 
