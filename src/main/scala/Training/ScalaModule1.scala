@@ -1,6 +1,6 @@
 package Training
 
-object ScalaModule1  {
+object ScalaModule1 {
 
   /*
   1.Create variables for all the available datatypes in Scala, assign wrong values for variable and record the error
@@ -25,39 +25,41 @@ object ScalaModule1  {
   println("double:" + a5)
   println("char:" + a6)
 */
-/*  2.Create string variables perform concat, upper and lower functions*/
+  /*  2.Create string variables perform concat, upper and lower functions*/
 
   val str1 = "Welcome, "
   val str2 = "to Scala World!"
 
   val newStr = str1.concat(str2)
 
-  println("New String : " + newStr  )
+  println("New String : " + newStr)
   println("We can use concat" + " using '+' operator as well")
   println(str1.toLowerCase())
   println(str2.toUpperCase())
 
-/*  3.Create if else/loop statements for printing 10 numbers.*/
+  /*  3.Create if else/loop statements for printing 10 numbers.*/
 
   def main(args: Array[String]) = {
-    var counter: Int=0;
+    var counter: Int = 0;
 
-    for(counter <- 1 to 10)
+    for (counter <- 1 to 10)
       print(counter + " ");
 
     println();
   }
-/*  4.Create function to add 2 numbers.*/
+  /*  4.Create function to add 2 numbers.*/
 
-   def aFuntion(a: Int, b: Int): Int = {
-     a + b
-   }
-   println(aFuntion(1,2))
+  def aFuntion(a: Int, b: Int): Int = {
+    a + b
+  }
 
-    }
-/*5.Create a sample class and object and include the if else/loop/add functions in it.*/
+  println(aFuntion(1, 2))
 
 
+  /*5.Create a sample class and object and include the if else/loop/add functions in it.*/
+
+
+}
 /*6.Create a class with public and protected members*/
 
 
