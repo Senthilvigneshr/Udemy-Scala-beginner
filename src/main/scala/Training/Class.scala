@@ -1,5 +1,7 @@
 package Training
 
+/*5.Create a sample class and object and include the if else/loop/add functions in it.*/
+
 class Dog(name:String, breed:String, age:Int, color:String )
 {
   println("My name is:" + name + " my breed is:" + breed);

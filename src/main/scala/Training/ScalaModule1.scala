@@ -56,11 +56,11 @@ object ScalaModule1 {
   println(aFuntion(1, 2))
 
 
-  /*5.Create a sample class and object and include the if else/loop/add functions in it.*/
+ 
 
 
 }
-/*6.Create a class with public and protected members*/
+
 
 
 
