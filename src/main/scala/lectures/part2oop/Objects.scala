@@ -55,6 +55,7 @@ scala companions
   can access each other's private members
   scala is more OO than java
 
+
 scala applications
   def main(args: Array[String]): Unit
   */
