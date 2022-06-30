@@ -7,6 +7,7 @@ object Inheritance extends  App {
     val creatureType = "wild"
     def eat = println("nomnom")
 
+
   }
 
   class Cat extends Animal {
