@@ -1,0 +1,5 @@
+package Training
+
+object Cinderella {
+
+}
